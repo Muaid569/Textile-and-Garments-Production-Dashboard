@@ -22,34 +22,40 @@ The infrastructure of this production control dashboard relies on a scalable dat
 => File Format – .pbix for analytical asset distribution and development layout.
 
 ## 4. Data Source
-Source: Factory Floor Manufacturing Execution Systems (MES) and Daily Production Logs.
+=> Source: Factory Floor Manufacturing Execution Systems (MES) and Daily Production Logs.
 
-Structure: The dataset incorporates unified metrics spanning across two core operational phases:
+=> Structure: The dataset incorporates unified metrics spanning across two core operational phases:
 
-Textile Phase Dimensions: Fabric types (Knit/Woven), loom numbers, RPM speeds, total meters produced, and yarn wastage allocations.
+=> Textile Phase Dimensions: Fabric types (Knit/Woven), loom numbers, RPM speeds, total meters produced, and yarn wastage allocations.
 
-Garments Phase Dimensions: Sewing line IDs, style/buyer profiles, target output vs. actual pieces finished, inspected quantities, total defects found, and total operator/man-hours logged per shift.
+=> Garments Phase Dimensions: Sewing line IDs, style/buyer profiles, target output vs. actual pieces finished, inspected quantities, total defects found, and total operator/man-hours logged per shift.
 
-5. Features / Highlights
-STEP 1 - Start with the Business Problem
+## 5. Features / Highlights
+## STEP 1 - Start with the Business Problem
 The factory management faced severe visual blindspots between fabric manufacturing and final garments assembling, causing massive inventory blockages and missed shipping deadlines. Due to siloed reporting, floor supervisors could not identify in real-time which sewing lines were lagging behind daily targets, why specific machine lines suffered from recurring idle downtimes, or which fabric styles caused frequent needle breakages and defect spikes during production runs.
 
-STEP 2 - Define the Goal of the Dashboard
+## STEP 2 - Define the Goal of the Dashboard
 The goal of this dashboard was to deploy an end-to-end "Shop Floor Single Source of Truth" that aligns Textile Mill output directly with Garments Production lines. It focuses on driving up daily Target Attainment Rates, lowering the overall Reject/Rework Percentage, monitoring operator efficiency by shift, and ensuring that optimal fabric volume feeds smoothly into the sewing lines without sudden shortages.
 
-STEP 3 - Walk Through the Key Visuals
-Operational KPI Badges: Positioned at the header for instant cross-checking, tracking Total Output (Meters/Pcs), Average Line Efficiency (%), Defect Rate (DHU), and Total Downtime Hours.
+## STEP 3 - Walk Through the Key Visuals
+=> Operational KPI Badges: Positioned at the header for instant cross-checking, tracking Total Output (Meters/Pcs), Average Line Efficiency (%), Defect Rate (DHU), and Total Downtime Hours.
 
-Line-Wise Performance Matrix: A dynamic horizontal bar chart comparing Target vs. Actual production volumes across all active sewing lines, instantly highlighting high-performing rows vs underperforming cells.
+=> Line-Wise Performance Matrix: A dynamic horizontal bar chart comparing Target vs. Actual production volumes across all active sewing lines, instantly highlighting high-performing rows vs underperforming cells.
 
-Hourly Production Velocity Chart: A continuous dual-axis combo chart tracking actual output vs hourly threshold benchmarks, signaling exactly which hour of the shift experienced machine breakdown or low labor concentration.
+=> Hourly Production Velocity Chart: A continuous dual-axis combo chart tracking actual output vs hourly threshold benchmarks, signaling exactly which hour of the shift experienced machine breakdown or low labor concentration.
 
-Defect Categories Donut Chart: An interactive visual breakdown segmenting product failures into specific categories (e.g., stitching errors, fabric stains, measurement deviations) to isolate root quality issues.
+=> Defect Categories Donut Chart: An interactive visual breakdown segmenting product failures into specific categories (e.g., stitching errors, fabric stains, measurement deviations) to isolate root quality issues.
 
-Style & Buyer Analysis Treemap: A multi-layered visual matrix classifying volume and margin contributions by buyer codes and apparel styles, guiding planners on product complexity.
+=> Style & Buyer Analysis Treemap: A multi-layered visual matrix classifying volume and margin contributions by buyer codes and apparel styles, guiding planners on product complexity.
 
-STEP 4 - Highlight the Insight
+## STEP 4 - Highlight the Insight
 By leveraging cross-filtering between the Defect Categories Chart and specific Sewing Line outputs, a critical bottleneck was uncovered: certain intricate apparel styles were experiencing a 15% surge in rework delays when running on specific machine groups. The dashboard clearly proved that the issue wasn't general worker slowdown, but rather a direct mismatch between complex fabric density and machine calibration configurations—allowing engineers to run swift recalibrations immediately.
 
-STEP 5 - Show the Business Impact
+## STEP 5 - Show the Business Impact
 With these continuous data updates, factory directors can transition from reactive damage control to proactive line balancing. Floor leads can re-allocate manpower to lagging sewing lines on the fly, quality teams can block defective fabric rolls before they flood the cutting rooms, and planning executives can confidently quote accurate delivery times to international buyers based on actualized line speed capabilities.
+
+## SCREENSHORTS/DEMOS
+Example:
+
+
+
