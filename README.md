@@ -11,7 +11,7 @@ The ThreadToGarment Dashboard is a high-impact Power BI analytical ecosystem des
 ## 3. Tech Stack
 The infrastructure of this production control dashboard relies on a scalable data modeling architecture:
 
-=> ### Power BI Desktop – Main authoring environment for canvas UI layout, color-coded threshold alerts, and manufacturing line-wise report configuration.
+=> Power BI Desktop – Main authoring environment for canvas UI layout, color-coded threshold alerts, and manufacturing line-wise report configuration.
 
 => Power Query – The transformation engine used for reshaping daily shift-wise operator sheets, cleansing messy downtime machine logs, and parsing complex style/SKU variations.
 
