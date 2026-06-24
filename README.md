@@ -55,7 +55,8 @@ By leveraging cross-filtering between the Defect Categories Chart and specific S
 With these continuous data updates, factory directors can transition from reactive damage control to proactive line balancing. Floor leads can re-allocate manpower to lagging sewing lines on the fly, quality teams can block defective fabric rolls before they flood the cutting rooms, and planning executives can confidently quote accurate delivery times to international buyers based on actualized line speed capabilities.
 
 ## SCREENSHORTS/DEMOS
-Example:
+Example:<img width="1481" height="790" alt="Garments production Dashboard" src="https://github.com/user-attachments/assets/e84a7265-77c3-48f1-9d2a-77b22640c62e" />
+Example:<img width="1327" height="806" alt="Textile Production Dashboard" src="https://github.com/user-attachments/assets/3215c5fb-a477-491b-8f9f-1a541089e8b2" />
 
 
 
